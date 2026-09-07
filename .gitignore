@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+.vercel
+tmp/
+emg_reader.ino
+src/data/fightCommentary.ts
+src/data/gameData.ts
+src/engine/
+src/systems/
+src/types.ts
+src/utils.ts

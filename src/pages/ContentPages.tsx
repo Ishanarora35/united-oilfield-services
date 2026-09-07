@@ -59,10 +59,10 @@ export function SpecialistPage({ onNavigate }: { onNavigate: (href: string) => v
   return (
     <>
       <PageHero eyebrow="Supporting specialist disciplines" title="The in-house support that holds a project together." copy="Cementing, wireline support, and casing & capping services that support well closure work and keep projects on schedule." image="/images/services/cementing.webp" alt="Specialized cementing operation in progress" />
-      <section className="discipline-section shell">
+      <section className="discipline-section specialist-discipline-section shell">
         {specialistDisciplines.map((discipline, index) => <article className="discipline discipline--image" key={discipline.title}><img src={discipline.image} alt={discipline.alt} loading="lazy" /><div><span>0{index + 1}</span><h2>{discipline.title}</h2><p>{discipline.copy}</p></div></article>)}
       </section>
-      <section className="callout shell"><div><p className="eyebrow">Project support</p><h2>Coordinate the next phase with UOS.</h2></div><button className="button button--orange" type="button" onClick={() => onNavigate("/contact")}>Contact UOS <span aria-hidden="true">↗</span></button></section>
+      <section className="callout specialist-callout shell"><div><p className="eyebrow">Project support</p><h2>Coordinate the next phase with UOS.</h2></div><button className="button button--orange" type="button" onClick={() => onNavigate("/contact")}>Contact UOS <span aria-hidden="true">↗</span></button></section>
     </>
   );
 }

@@ -223,6 +223,19 @@ export const services: Service[] = [
   },
 ];
 
+export const serviceNavigation = [
+  ...services.map((service) => ({
+    number: service.number,
+    label: service.shortTitle,
+    href: `/services/${service.slug}`,
+  })),
+  {
+    number: "08",
+    label: "Supporting Specialist Disciplines",
+    href: "/services/specialist-disciplines",
+  },
+];
+
 export const specialistDisciplines = [
   {
     title: "Cementing",

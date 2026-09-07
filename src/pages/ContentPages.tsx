@@ -22,7 +22,7 @@ export function AboutPage({ onNavigate }: { onNavigate: (href: string) => void }
           <article><span>03</span><h3>Safety</h3><p>Every project is delivered to high safety and quality standards, without compromise.</p></article>
         </div>
       </section>
-      <section className="callout shell"><div><p className="eyebrow">Work with UOS</p><h2>Bring an experienced team into the field.</h2></div><button className="button button--orange" type="button" onClick={() => onNavigate("/contact")}>Get in touch <span aria-hidden="true">↗</span></button></section>
+      <section className="callout about-callout shell"><div><p className="eyebrow">Work with UOS</p><h2>Bring an experienced team into the field.</h2></div><button className="button button--orange" type="button" onClick={() => onNavigate("/contact")}>Get in touch <span aria-hidden="true">↗</span></button></section>
     </>
   );
 }

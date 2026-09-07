@@ -132,6 +132,7 @@ main { overflow: hidden; }
 .safety-preview__content h2 { margin: 16px 0 25px; font-family: "Bebas Neue", Impact, sans-serif; font-size: clamp(47px, 5.2vw, 78px); line-height: .94; }
 .safety-preview__content > p:not(.eyebrow) { max-width: 465px; margin-bottom: 33px; color: var(--steel); font-size: 18px; line-height: 1.5; }
 .callout { display: flex; padding: clamp(55px, 7vw, 100px) 0; align-items: flex-end; justify-content: space-between; gap: 30px; border-bottom: 1px solid var(--line); }
+.about-callout { padding-top: clamp(28px, 4vw, 58px); }
 .callout h2 { max-width: 720px; margin-top: 13px; font-family: "Bebas Neue", Impact, sans-serif; font-size: clamp(38px, 4.6vw, 68px); line-height: .95; }
 
 /* Page hero */
@@ -321,6 +322,7 @@ main { overflow: hidden; }
   .safety-preview__image { min-height: 260px; }
   .safety-preview__content { padding: 58px 25px 64px; }
   .callout { padding: 55px 0; }
+  .about-callout { padding-top: 28px; }
   .page-hero { min-height: 470px; }
   .page-hero__content { padding-bottom: 41px; }
   .page-hero__content > p:last-child { font-size: 16px; }

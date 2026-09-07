@@ -246,11 +246,15 @@ export const specialistDisciplines = [
   },
   {
     title: "Wireline Support",
+    image: "/images/services/pumping-well-operations.webp",
+    alt: "Field operator inspecting production equipment at an oilfield site",
     copy:
       "Comprehensive well-site support and dedicated manpower for wireline operations, including equipment handling, rig-up and rig-down assistance, and fluid and location logistics. Our teams work alongside primary service companies and adapt to their technical requirements and field procedures.",
   },
   {
     title: "Casing & Capping",
+    image: "/images/services/plug-abandonment.webp",
+    alt: "Wellhead equipment at a decommissioning site",
     copy:
       "Casing and capping solutions designed to permanently seal wellbores and support environmental integrity. Services include precision mechanical casing cutting, intermediate retrieval, and final welding of structural identification caps below ground level for long-term site safety.",
   },

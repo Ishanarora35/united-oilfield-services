@@ -1,15 +1,19 @@
 {
-  "name": "enter-the-circle-standup",
+  "name": "united-oilfield-services",
   "version": "1.0.0",
-  "description": "A browser-based martial arts career sim focused on kickboxing and Muay Thai.",
+  "description": "Responsive public website for United Oilfield Services LLC.",
   "scripts": {
     "dev": "vite",
     "build": "tsc --noEmit -p tsconfig.app.json && tsc --noEmit -p tsconfig.node.json && vite build",
     "preview": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "react",
+    "vite",
+    "typescript",
+    "oilfield-services"
+  ],
+  "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
     "@fontsource/bebas-neue": "^5.2.7",
